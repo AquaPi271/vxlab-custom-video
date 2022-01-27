@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER abc_display_ip
+	OPTION supported_peripherals = (abc_display_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = abc_display_ip;
+END DRIVER
