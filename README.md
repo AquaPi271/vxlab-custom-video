@@ -35,8 +35,8 @@ This steps assumes the above steps to build the FPGA have been completed.
 
 I changed Nexys original menu items 7 and 8.  Selecting 7 will apply a mask of 0x00FF0000 to the RGB channels (there upper 8 bits are unused).  This setting will block the entire R channel and only allow GB through.  Selectiong 8 will restore.  Unlike the original demo, this mask is applied 'on-the-fly' instead of DMAing video to memory.  Hence, it is real-time capable.
 
-TODO:  Show steps of how to add IP as a peripheral.
-TODO:  Show how to add and AXI slave for a particular memory.
-TODO:  Show how to connect AXI slave to the peripheral.
-TODO:  Show how to program the new memory mapped setting in the C program.
-TODO:  Write up 'write_project_tcl' program.
+- TODO:  Show steps of how to add IP as a peripheral.
+- TODO:  Show how to add and AXI slave for a particular memory.
+- TODO:  Show how to connect AXI slave to the peripheral.
+- TODO:  Show how to program the new memory mapped setting in the C program.
+- TODO:  Write up 'write_project_tcl' program.
